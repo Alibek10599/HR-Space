@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package auth;
+
+// Protobuffers definition for the auth service
+// we will modify as we go
+
+service AuthService {
+  rpc SetPassword(SetPasswordRequest) returns(ResetResponse) {};
+}
+
+// Register
+
+message SetPasswordRequest {
+    int32 userId = 1;
+}
+
+message ResetResponse {
+    string message = 1;
+}
+

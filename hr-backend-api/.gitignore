@@ -1,0 +1,30 @@
+node_modules
+
+#ide files
+.idea/
+.vscode/
+
+### macOS template
+# General
+.DS_Store
+
+# compodoc
+dist
+.db.json
+.terraform
+
+# CMake
+cmake-build-debug/
+
+# envs
+.env
+
+# Data dump
+data
+
+yarn-error.log
+
+tsconfig.build.tsbuildinfo
+
+src/storage/to-work-applications-and-orders/*
+!src/storage/to-work-applications-and-orders/.gitkeep
